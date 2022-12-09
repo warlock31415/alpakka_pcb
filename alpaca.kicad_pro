@@ -331,7 +331,7 @@
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
-      "label_dangling": "error",
+      "label_dangling": "warning",
       "lib_symbol_issues": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
@@ -339,7 +339,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -434,6 +434,30 @@
     [
       "ce83728b-bebd-48c2-8734-b6a50d837931",
       ""
+    ],
+    [
+      "01c4e9f2-196b-40dd-a96c-4e2df0ace5b9",
+      "IMU 0"
+    ],
+    [
+      "d84335af-42a7-462e-935d-7f58a691b92c",
+      "IMU 1"
+    ],
+    [
+      "10e9bd4e-71af-43e9-9f32-6b9bb0f5b142",
+      "IO EXPANSION 0"
+    ],
+    [
+      "225aec44-7f81-42e8-9f12-de76a2af7d80",
+      "IO EXPANSION 1"
+    ],
+    [
+      "23a9a026-0811-4503-a420-8b4df7284099",
+      "PICO"
+    ],
+    [
+      "44edd305-20da-44d4-b65f-62f222d4d73c",
+      "IO"
     ]
   ],
   "text_variables": {}
